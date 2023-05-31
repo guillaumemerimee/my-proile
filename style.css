@@ -1,0 +1,94 @@
+body {
+	background-color: rgb(245,240,225);
+	color: rgb(255,110,64);
+	font-family: Helvetica;
+	font-size: 16px;
+	line-height: 1
+}
+
+h1 {
+	color: rgb(30,61,89);
+	font-size: 28px;
+	font-family: impact, sans-serif; 
+	font-weight: 600;
+}
+
+h2, h3 {
+	color: rgb(30,61,89);
+	font-size: 25px;
+	font-family: impact, sans-serif; 
+	font-weight: 600;
+}
+
+a{
+	color : rgb(255,110,64);
+	text-decoration: none;
+	transition: color 0.3s ease;
+	font-size: 15px;
+}
+a:hover {
+	color : rgb(30,61,89);
+	text-decoration: none;
+}
+
+#profile-picture {
+	border-radius :50%;
+	width: 130px;
+	height: 130px;
+}
+
+.container {
+	width: 720px;
+	margin: 50px auto;
+}
+
+.card-white {
+	background: white;
+	margin: 20px auto;
+	padding: 45px;
+	border: 3px solid rgb(30,61,89);
+	border-radius: 5px;
+	box-shadow: rgba(0,0,0,0.1);
+	text-align: center;
+}
+
+
+
+@media (max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 700px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.button-orange: hover{
+	background-color : rgb(30,61,89);
+	color : rgb(255,110,64);
+}
+.button-orange {
+	background-color: rgb(255,110,64);
+	color:white;
+	padding: 16px, 20px;
+	margin: 50px;
+	box-shadow: rgba(0,0,0,0.1);
+	border-radius: 3px;
+}
+
+.list-inline {
+	list-style : none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display : inline;
+	padding: 10px;
+}
+
